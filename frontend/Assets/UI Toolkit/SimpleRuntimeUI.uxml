@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Navbar.uss?fileID=7433441132597879392&amp;guid=3256e3b36ca9b4232a8a03929af77b3f&amp;type=3#Navbar" />
+    <ui:VisualElement name="ResourceBar" class="navbar-container">
+        <ui:VisualElement name="ResourceItem" class="resource-container">
+            <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/BlueAlloy.png?fileID=2800000&amp;guid=306544b0fffa04b3997ba8ffec0027a0&amp;type=3#BlueAlloy&quot;); -unity-background-scale-mode: scale-to-fit;" />
+            <ui:Label tabindex="-1" text="2K" parse-escape-sequences="true" display-tooltip-when-elided="true" class="navbar-resource-label" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ResourceItem" class="resource-container">
+            <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/energy.png?fileID=2800000&amp;guid=449664486156f49e5ab05cf38261d2d9&amp;type=3#energy&quot;); -unity-background-scale-mode: scale-to-fit;" />
+            <ui:Label tabindex="-1" text="550&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" class="navbar-resource-label" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ResourceItem" class="resource-container">
+            <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/fuelDrum.png?fileID=2800000&amp;guid=062e3fe0775f34dc0949920a2eabfd5a&amp;type=3#fuelDrum&quot;); -unity-background-scale-mode: scale-to-fit;" />
+            <ui:Label tabindex="-1" text="0" parse-escape-sequences="true" display-tooltip-when-elided="true" class="navbar-resource-label" style="color: rgb(207, 69, 86);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1;" />
+</ui:UXML>
