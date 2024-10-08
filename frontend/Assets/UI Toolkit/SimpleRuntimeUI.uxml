@@ -1,5 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Navbar.uss?fileID=7433441132597879392&amp;guid=3256e3b36ca9b4232a8a03929af77b3f&amp;type=3#Navbar" />
+    <Style src="project://database/Assets/Content.uss?fileID=7433441132597879392&amp;guid=b11f6f384232845acb4f470a673c1c63&amp;type=3#Content" />
     <ui:VisualElement name="ResourceBar" class="navbar-container">
         <ui:VisualElement name="ResourceItem" class="resource-container">
             <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/BlueAlloy.png?fileID=2800000&amp;guid=306544b0fffa04b3997ba8ffec0027a0&amp;type=3#BlueAlloy&quot;); -unity-background-scale-mode: scale-to-fit;" />
@@ -14,5 +15,9 @@
             <ui:Label tabindex="-1" text="0" parse-escape-sequences="true" display-tooltip-when-elided="true" class="navbar-resource-label" style="color: rgb(207, 69, 86);" />
         </ui:VisualElement>
     </ui:VisualElement>
-    <ui:VisualElement style="flex-grow: 1;" />
+    <ui:VisualElement class="content-container" style="flex-grow: 1; -unity-font-style: bold;">
+        <ui:Button text="Upgrade Alloy" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" class="placeholder-content-button" />
+        <ui:Button text="Upgrade Energy" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" class="placeholder-content-button" />
+        <ui:Button text="Upgrade Fuel" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" class="placeholder-content-button" />
+    </ui:VisualElement>
 </ui:UXML>
