@@ -8,13 +8,15 @@ public class UpgradeHandler : MonoBehaviour
 
     private List<Button> _menuButtons = new();
     
-    private List<TextElement> _foo;
+    private Label _foo;
+    
+    private int count = 2000;
 
     private void Awake()
     {
         _document = GetComponent<UIDocument>();
         
-        _foo = _document.rootVisualElement.Query<TextElement>().ToList();
+        _foo = _document.rootVisualElement.Q<Label>("AlloyResourceCount");
         
         Debug.Log(_foo);
 
@@ -38,6 +40,10 @@ public class UpgradeHandler : MonoBehaviour
 
     private void UpgradeResource(ClickEvent evt)
     {
+        count++;
+        
+        _foo.text = count.ToString();
+        
         Debug.Log("You pressed the button");
     }
 }
