@@ -7,7 +7,7 @@ namespace backend;
 
 public class Function
 {
-    
+
     /// <summary>
     /// A simple function that takes a string and does a ToUpper
     /// </summary>
@@ -16,6 +16,6 @@ public class Function
     /// <returns></returns>
     public string FunctionHandler(string input, ILambdaContext context)
     {
-        return input.ToUpper();
+        return "Hello There";
     }
 }
