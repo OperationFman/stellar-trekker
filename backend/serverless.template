@@ -7,7 +7,7 @@
 			"Type": "AWS::Serverless::Function",
 			"Properties": {
 				"Handler": "InventoryManager:: InventoryManager. Functions::Get",
-				"Runtime": "dotnetcore2.1",
+				"Runtime": "dotnet8",
 				"CodeUri": "",
 				"MemorySize": 256,
 				"Timeout": 30,
