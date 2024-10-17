@@ -15,6 +15,9 @@
     "function-timeout"      : 30,
     "function-handler"      : "backend::backend.Function::FunctionHandler",
     "framework"             : "net8.0",
-    "output-package"        : "/var/folders/y_/t02k6bs57sjdxv7nz_kqnd600000gn/T/Get-CodeUri-Or-ImageUri-638647573291679580.zip",
-    "disable-version-check" : false
+    "output-package"        : "/var/folders/y_/t02k6bs57sjdxv7nz_kqnd600000gn/T/Get-CodeUri-Or-ImageUri-638647628422812360.zip",
+    "disable-version-check" : false,
+    "s3-bucket"             : "stellar-trekker",
+    "template"              : "serverless.template",
+    "stack-name"            : "backend"
 }
